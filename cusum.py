@@ -4,12 +4,8 @@ import matplotlib.pyplot as plt
 
 
 class Cusum_cal:
-    def __init__(self, array: np.array, w=0.5) -> None:
+    def __init__(self, array: np.array) -> None:
         self.original_array = array
-        self.__w_value = w
-
-    def set_w(self, w_value) -> None:
-        self.__w_value = w_value
 
     def compute(self, expect_mean, expect_std, w=0.5, output_original=False) -> pd.DataFrame:
         df = {'Received Array': self.original_array} if output_original else {}
