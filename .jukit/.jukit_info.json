@@ -1,1 +1,1 @@
-{"cmd": "usa_c_20[['new_cases']].mean(0, numeric_only = True)", "outhist_cell": "QaNRgqRH", "output_complete": 1, "is_md": 0, "cmd_opts": "", "import_complete": 1, "terminal": "nvimterm"}
+{"cmd": "\ndf_USA.plot()\nplt.show()\n", "outhist_cell": "tfMNA0MwM3", "output_complete": 1, "is_md": 0, "cmd_opts": " --cell_id=VLnJg5UhXd -s", "import_complete": 1, "terminal": "nvimterm"}
