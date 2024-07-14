@@ -18,11 +18,11 @@ def main(country_name) -> None:
 
     vals = df_c['val'].to_numpy()
     vals = vals/np.max(vals)
-    # Standarized by diving by max vals
+    # Standardized by diving by max vals
 
     vals_cusum = Cusum_cal(vals)
     df_vals = vals_cusum.compute(
-        np.mean(vals[0:-2]), np.std(vals[0:-2]), output_original=True)
+        np.mean(vals[0:-2]), np.std(vals[0:-2]), w=1, output_original=True)
 
     df_c_y_v = (df_c[['year', 'val']].copy(deep=True)).reset_index()
     df_combined = df_c_y_v.join(df_vals)
