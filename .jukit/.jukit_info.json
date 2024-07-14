@@ -1,1 +1,1 @@
-{"cmd": "\ndf_USA.plot()\nplt.show()\n", "outhist_cell": "tfMNA0MwM3", "output_complete": 1, "is_md": 0, "cmd_opts": " --cell_id=VLnJg5UhXd -s", "import_complete": 1, "terminal": "nvimterm"}
+{"cmd": "\ndf_USA.plot()\nplt.show()\n", "import_complete": 1, "terminal": "nvimterm", "output_complete": 1, "cmd_opts": " --cell_id=VLnJg5UhXd -s", "outhist_cell": "tfMNA0MwM3", "is_md": 0}
